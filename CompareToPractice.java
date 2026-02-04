@@ -18,7 +18,10 @@ class Main {
       }
     };
     //we will play with compareTo here
-
+    Collections.sort(words);
+    for(String s : words){
+      System.out.println(s);
+    }
     char c = 'a';
     int code = (int)c;
     //System.out.println(code);

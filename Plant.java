@@ -1,12 +1,14 @@
 public class Plant{
+    private final String SPECIES;
     private int age;
     private String name;
     private double height;
 
-    public Plant (String name){
+    public Plant (String name, String species){
           age = 0;
           this.name = name;
           height = 0;
+          this.SPECIES = species;
     }
 
     public String type(){
@@ -22,5 +24,8 @@ public class Plant{
     }
     public int age(){
         return age;
+    }
+    public String species(){
+        return SPECIES;
     }
 }

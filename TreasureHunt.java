@@ -9,5 +9,6 @@ public class TreasureHunt {
     // if we win and false if we lose..
     public boolean huntSucceeds (int start) {
        // You fill this in.
+       return false;
     }
  }
